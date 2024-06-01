@@ -1,0 +1,465 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+.rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+:root {
+    --body-bgcolor: #09121c;
+
+    --h1-color: #fff;
+    --h2-color: #fff;
+    --h3-color: #fff;
+    --span-color: aqua;
+    
+    --header-bgcolor: #09121c;
+    --header-a-color: #fff;
+    --header-a-bgcolor: #09121c;
+    --header-a-hover-bgcolor: #fff;
+    --header-a-hover-a-color: #09121c;
+
+    --hero-contenedor-bgcolor: #09121c; 
+    --hero-icon-color: aqua;
+    --hero-icon-hover-color: #fff;
+    --hero-boton-color: #fff;
+    --hero-boton-bgcolor: aqua;
+    --hero-boton-hover-bgcolor: #fff;
+    --hero-boton-hover-a-color: #09121c;
+
+    --acercaDe-bgcolor: #293b50;
+    --acercaDe-h3-color: #fff;
+    --acercaDe-h2-color: #fff;
+    --acercaDe-p-color: #fff;
+    
+    --servicio-contenedor-div-bgcolor: #293b50;
+
+    --skills-contenedor-bgcolor: #293b50;
+    --skills-conocimientos-h4-color: #fff;
+
+    --footer-bgcolor: #293b50;
+    --form-input-bgcolor: #09121c;
+    --form-input-color: #fff;
+    --form-boton-contacto-bgcolor: aqua;
+    --form-boton-contacto-color: #fff;
+    --form-boton-contacto-hover-bgcolor: #fff;
+    --form-boton-contacto-hover-color: #09121c;
+}
+  
+
+body {
+    font-family: "Rubik", sans-serif;
+    background-color: var(--body-bgcolor);
+}
+
+
+/*Estilos aplicados al header*/
+
+header {
+    background-color: var(--header-bgcolor);
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+header img {
+    margin: 0px 35px;
+    border-radius: 0;
+    height: 7vh;
+    width: 11vw;
+}
+
+
+header a{
+    color: var(--header-a-color);
+    text-decoration: none;
+    margin: 0px;
+    padding: 28px 50px;
+    transition: color 1.9s, background-color 1.9s;
+}
+
+header a:hover {
+    color: var(--header-a-hover-a-color);
+    background-color: var(--header-a-hover-bgcolor);
+}
+
+/*---------------------------*/
+
+/*Se aplican propiedades a las secciones*/
+/*Propiedades para la seccion que contiene el hero*/
+
+.hero-contenedor {
+    background-color: var(--hero-contenedor-bgcolor);
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-presentacion {
+    margin-left: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.hero-presentacion i {
+    margin: 20px;
+    color: var(--hero-icon-color);
+    font-size: 40px;
+    transition: color 1.9s, background-color 1.9s;
+}
+
+.hero-presentacion i:hover {
+    color: var(--hero-icon-hover-color);
+}
+
+/*-----------------------------*/
+/*Se aplican propiedades a la seccion Acerca de mi*/
+
+#acercaDe {
+    background-color: var(--acercaDe-bgcolor);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+#acercaDe section, #acercaDe .foto-contenedor {
+    width: 30%;
+}
+
+.acercaDe-contenedor {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.acercaDe-contenedor h2{
+    font-size: 35px;
+    color: var(--acercaDe-h2-color);
+}
+
+.acercaDe-contenedor span {
+    font-size: 35px;
+}
+
+.acercaDe-contenedor h3 {
+    color: var(--acercaDe-h3-color);
+    font-size: 25px;
+}
+
+.acercaDe-contenedor p{
+    font-size: 20px;
+    color: var(--acercaDe-p-color);
+    width: 600px;
+    margin-top: 20px;
+}
+
+
+
+/*Propiedades aplicadas a la seccion de servicio*/
+
+#servicios {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#servicios h2, #servicios span {
+    font-size: 35px;
+}
+
+#servicios h2 {
+    padding: 100px 0px;
+}
+
+.servicio-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 150px 100px;
+    padding: 20px 0px;
+}
+
+.servicio-contenedor .bt1 {
+    flex-grow: 1;
+}
+.servicio-contenedor .bt2 {
+    flex-grow: 1;
+}
+.servicio-contenedor .bt3 {
+    flex-grow: 1;
+}
+
+.servicio-contenedor div {
+    background-color: var(--servicio-contenedor-div-bgcolor);
+    width: 50%;
+    height: 50%;
+    padding: 80px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.servicio-contenedor h3 {
+    margin: 0px 50px 90px 50px;
+    padding-bottom: 20px;
+}
+
+.servicio-contenedor .boton {
+    padding: 20px 60px;
+}
+
+
+/*Propiedades aplicadas a la seccion de habilidades (skills)*/
+
+.skills-contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--skills-contenedor-bgcolor);
+    height: 100vh;
+}
+
+.skills-contenedor h2, .skills-contenedor span {
+    font-size: 35px;
+}
+
+.skills-contenedor h2 {
+    margin: 0px;
+    padding: 100px;  
+}
+
+.skills-iconos {
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+.skills-iconos img {
+    width: 80px;
+    height: 80px;
+    margin: 0%;
+    border-radius: 0px;
+}
+
+.skills-conocimientos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.skills-conocimientos p {
+    margin: 20% 25%;
+}
+
+.skills-conocimientos h4 {
+    color: var(--skills-conocimientos-h4-color);
+    margin: 0% 100px;
+    padding: 30px 0px;
+}
+
+.skills-conocimientos img {
+    border-radius: 0px;
+    margin: 0px;
+}
+
+/*------------------------------------------------*/
+
+.portfolio-contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.portfolio-contenedor h2, .portfolio-contenedor span {
+    font-size: 35px;
+}
+
+.portfolio-contenedor h2 {
+    padding: 100px 0px 0px 0px;
+    margin: 50px 0px;
+}
+
+.portfolio-proyectos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portfolio-proyectos div img {
+    width: 15vw;
+    height: 27vh;
+    border-radius: 10px;
+    margin: 29px;
+}
+
+/*--------------------------------------*/
+/*Se aplican propiedades al footer y al formulario que contiene*/
+
+footer {
+    background-color: var(--footer-bgcolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#contacto h2, #contacto span {
+    font-size: 35px;
+    padding: 40px 0px 0px 0px;
+    margin: 50px 0px;
+}
+
+.form-nombre-completo, .form-info, .form-cuadro-texto {
+    display: flex;
+    width: 50vw;
+}
+
+.form-nombre-completo input {
+    flex-grow: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 0px;
+    border-radius: 7px;
+    background-color: var(--form-input-bgcolor);
+    color: var(--form-input-color);
+    font-size: 25px;
+}
+
+.form-info input {
+    flex-grow: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 0px;
+    border-radius: 7px;
+    background-color: var(--form-input-bgcolor);
+    color: var(--form-input-color);
+    font-size: 25px;
+}
+
+.form-cuadro-texto textarea {
+    width: 100vw;
+    margin: 10px;
+    padding: 20px 20px 300px 20px;
+    border: 0px;
+    border-radius: 7px;
+    background-color: var(--form-input-bgcolor);
+    color: var(--form-input-color);
+    font-size: 25px;
+}
+
+.form-boton-envio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-boton-contacto {
+    margin: 10px;
+    padding: 30px;
+    font-size: 20px;
+    background-color: var(--form-boton-contacto-bgcolor);
+    color: var(--form-boton-contacto-color);
+    border: 0px;
+    border-radius: 6px;
+    transition: background-color 1.9s, color 1.9s;
+}
+
+.form-boton-contacto:hover {
+    background-color: var(--form-boton-contacto-hover-bgcolor);
+    color: var(--form-boton-contacto-hover-color);
+}
+
+
+
+/* -------------------------------------------- */
+
+/*Uso en varias secciones*/
+.boton-contenedor {
+    margin: 50px 0px;
+}
+
+.boton {
+    text-decoration: none;
+    padding: 25px 40px;
+    border-radius: 10px;
+    font-size: 24px;
+    color: var(--hero-boton-color);
+    background-color: var(--hero-boton-bgcolor);
+    margin: 20px;
+    transition: color 1.9s, background-color 1.9s;
+}
+
+.boton:hover {
+    background-color: var(--hero-boton-hover-bgcolor);
+    color: var(--hero-boton-hover-a-color);
+}
+
+.sombra-boton {
+    text-shadow: 0.5px 0.5px 0.5px #00001f91;;
+}
+
+.foto-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.foto-contenedor img {
+    height: 650px;
+    width: 650px;
+}
+
+img {
+    border-radius: 100%;
+    margin: 100px;
+}
+
+h1, h2, h3, p {
+    margin: 20px;
+}
+
+h1 {
+    color: var(--h1-color);
+    font-size: 45px;
+}
+
+h2 {
+    color: var(--h2-color);
+    font-size: 30px;
+}
+
+h2 span{
+    color: var(--span-color);
+    font-size: 30px;
+}
+
+h3 {
+    color: var(--h3-color);
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    width: 300px;
+    margin-top: 20px;
+}
