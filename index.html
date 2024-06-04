@@ -6,10 +6,11 @@
     <title>RodrigoJunco</title>
 	<link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="./css/responsive.css">
   </head>
   <body>
 
-    <header>
+    <header class="header">
 
 		<img src="./img/logo.PNG" alt="logo-portofolio">
         
@@ -21,6 +22,7 @@
 			<a href="#skills">Habilidades</a>
         	<a href="#portfolio">Portfolio</a>
         	<a href="#contacto">Contacto</a>
+			<i class="bi bi-list menu-icono"></i>
             
         </nav>
 
@@ -31,7 +33,7 @@
 		<section class="hero-contenedor" id="inicio">
 
 			<section class="hero-presentacion">
-				<section>
+				<section class="hero-section-info">
 					<div>
 						<h3>Hola de nuevo, soy yo!</h3>
 						<h1>Rodrigo Junco</h1>
@@ -175,7 +177,7 @@
 
 			<section class="portfolio-contenedor">
 
-			<h2>Mi <span>Portfolio</span></h2>
+				<h2>Mi <span>Portfolio</span></h2>
 
 				<section class="portfolio-proyectos">
 
@@ -212,13 +214,13 @@
 
     </main>
 
-    <footer id="contacto">
+    <footer id="contacto" class="footer">
 		
 		<h2>Interesante verdad? <span>Contactame!</span></h2>
 
 		<section>
 
-			<form >
+			<form>
 				<section class="form-nombre-completo">
 					<input type="text" name="nombres" placeholder="Nombre">
 					<input type="text" name="apellidos" placeholder="Apellido">
@@ -228,7 +230,7 @@
 					<input type="email" name="email" placeholder="Direccion de email">
 				</section>
 				<section class="form-cuadro-texto">
-					<textarea name="area-texto" placeholder="Deje su mensaje"></textarea>
+					<textarea name="area-texto" placeholder=" Deje su mensaje"></textarea>
 				</section>
 				<section class="form-boton-envio">
 					<button type="submit" class="boton sombra-boton" name="contacto" value="Enviar Mensaje">
