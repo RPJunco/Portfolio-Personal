@@ -121,7 +121,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    
 }
 
 .foto-contenedor img {
@@ -168,7 +168,7 @@ p {
 
 /*Estilos aplicados al header*/
 
-header {
+.header {
     background-color: var(--header-bgcolor);
     height: 8vh;
     width: 100vw;
@@ -178,7 +178,7 @@ header {
     position: fixed;
 }
 
-header img {
+.header img {
     margin: 0px 35px;
     border-radius: 0;
     height: 7vh;
@@ -190,7 +190,7 @@ header img {
 }
 
 
-header a{
+.navegacion-secciones a{
     color: var(--header-a-color);
     text-decoration: none;
     margin: 0px;
@@ -199,9 +199,13 @@ header a{
     cursor: pointer;
 }
 
-header a:hover {
+.navegacion-secciones a:hover {
     color: var(--header-a-hover-a-color);
     background-color: var(--header-a-hover-bgcolor);
+}
+
+.menu-icono {
+    display: none;
 }
 
 /*---------------------------*/
@@ -218,9 +222,6 @@ header a:hover {
 }
 
 .hero-presentacion {
-    margin-left: 100px;
-    height: 100%;
-    display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
@@ -256,19 +257,15 @@ header a:hover {
 #acercaDe {
     background-color: var(--acercaDe-bgcolor);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
-}
-
-#acercaDe section, #acercaDe .foto-contenedor {
-    width: 30%;
 }
 
 .acercaDe-contenedor {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    padding: 10px 80px;
 }
 
 .acercaDe-contenedor h2{
@@ -288,7 +285,7 @@ header a:hover {
 .acercaDe-contenedor p{
     font-size: 20px;
     color: var(--acercaDe-p-color);
-    width: 600px;
+    width: 450px;
     margin-top: 20px;
 }
 
@@ -302,7 +299,7 @@ header a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    padding: 50px 0px;
 }
 
 #servicios h2, #servicios span {
@@ -310,14 +307,15 @@ header a:hover {
 }
 
 #servicios h2 {
-    padding: 70px 0px 0px 0px;
+    padding: 40px 0px;
 }
 
 .servicio-contenedor {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px 150px 100px;
+    flex-wrap: wrap;
+    margin: 70px 150px 70px;
     padding: 20px 0px;
 }
 
@@ -333,10 +331,8 @@ header a:hover {
 
 .servicio-contenedor div {
     background-color: var(--servicio-contenedor-div-bgcolor);
-    width: 50%;
-    height: 50%;
-    padding: 80px;
-    margin: 20px;
+    padding: 65px;
+    margin: 35px;
     border-radius: 30px;
 }
 
@@ -358,7 +354,6 @@ header a:hover {
     flex-direction: column;
     text-align: center;
     background-color: var(--skills-contenedor-bgcolor);
-    height: 100vh;
 }
 
 .skills-contenedor h2, .skills-contenedor span {
@@ -367,7 +362,7 @@ header a:hover {
 
 .skills-contenedor h2 {
     margin: 0px;
-    padding: 80px;  
+    padding: 90px 0px 45px 0px;  
 }
 
 .skills-iconos {
@@ -385,8 +380,8 @@ header a:hover {
 .skills-conocimientos {
     display: flex;
     justify-content: center;
-    width: 100%;
-    margin-top: 100px;
+    margin: 35px 0px;
+    padding: 15px 0px;
 }
 
 .skills-conocimientos p {
@@ -411,7 +406,7 @@ header a:hover {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    padding: 0px 0px 70px 0px;
 }
 
 .portfolio-contenedor h2, .portfolio-contenedor span {
@@ -419,13 +414,14 @@ header a:hover {
 }
 
 .portfolio-contenedor h2 {
-    padding: 100px 0px 0px 0px;
-    margin: 50px 0px;
+    padding: 70px 0px 0px 0px;
+    margin: 10px 0px;
 }
 
 .portfolio-proyectos {
     display: flex;
     justify-content: space-evenly;
+    padding: 30px;
 }
 
 .portfolio-proyectos div img {
@@ -439,13 +435,12 @@ header a:hover {
 /*--------------------------------------*/
 /*Se aplican propiedades al footer y al formulario que contiene*/
 
-footer {
+.footer {
     background-color: var(--footer-bgcolor);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
 }
 
 #contacto h2, #contacto span {
@@ -484,7 +479,7 @@ footer {
 }
 
 .form-cuadro-texto textarea {
-    width: 100vw;
+    flex-grow: 1;
     margin: 10px;
     padding: 20px 20px 300px 20px;
     border: 0px;
@@ -499,4 +494,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
+    padding: 20px;
 }
