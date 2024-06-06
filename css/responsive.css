@@ -308,7 +308,7 @@
         align-items: center;
         justify-content: center;
         height: 100%;
-        padding: 100px 0px 100px 0px;
+        padding: 200px 0px 100px 0px;
     }
     .hero-presentacion {
         display: flex;
@@ -506,7 +506,7 @@
         align-items: center;
         flex-direction: column;
         height: 100%;
-        padding: 150px 0px 50px 0px;
+        padding: 200px 0px 50px 0px;
     }
     .hero-presentacion {
         display: flex;
@@ -886,8 +886,8 @@
     .hero-contenedor {
         display: flex;
         flex-direction: column;
-        height: 115vh;
-        padding: 100px 0px 0px 0px;
+        height: 100%;
+        padding: 200px 0px 0px 0px;
     }
     .hero-presentacion {
         display: flex;
@@ -1056,7 +1056,7 @@
     .hero-contenedor {
         display: flex;
         flex-direction: column;
-        height: 155vh;
+        height: 100%;
         padding: 200px 0px 0px 0px;
     }
     .hero-presentacion {

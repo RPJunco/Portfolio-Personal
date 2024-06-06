@@ -181,7 +181,7 @@ p {
 
 .hero-contenedor {
     background-color: var(--hero-contenedor-bgcolor);
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
