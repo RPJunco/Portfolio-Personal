@@ -28,9 +28,9 @@ El objetivo del proyecto es replicar el diseño escogido, demostrando los conoci
 
 ## 🖼️ IMAGENES DEL PROYECTO 🖼️ : 
 
-![Seccion Hero de la pagina web](https://github.com/RPJunco/Portfolio-Personal/assets/109442443/2addc87b-dcdc-4bff-aae1-f9e92fc3fcd5)
+![Seccion Hero de la pagina web](https://github.com/RPJunco/Portfolio-Personal/assets/109442443/d3eed622-8813-4be3-9580-72bcae3e29b9)
+![Seccion skills de la pagina web](https://github.com/RPJunco/Portfolio-Personal/assets/109442443/9665acbd-c068-43c7-a034-963e7b44396a)
 
-![Seccion Habilidades/Skills de la pagina web](https://github.com/RPJunco/Portfolio-Personal/assets/109442443/bdfb335c-490d-4c51-aa32-363fce15cf97)
 
 
 
