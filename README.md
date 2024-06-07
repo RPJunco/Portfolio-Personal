@@ -5,7 +5,7 @@
 En el presente proyecto se desarrolla una página web basada en un diseño escogido directamente desde la página web 'Behance'. El diseño original puede ser consultado en el siguiente enlace:
 [Portfolio Web UI](https://www.behance.net/gallery/192002791/Portfolio-Web-UI)
 
-El objetivo del proyecto es replicar el diseño escogido, demostrando los conocimientos adquiridos en clase y los adquiridos fuera de clase.
+El objetivo del proyecto es replicar el diseño escogido, demostrando los conocimientos adquiridos en clase y los adquiridos fuera de clase. Cabe aclarar que al diseño original se le añadio una seccion extra llamada skills/habilidades.
 
 ## 🛠️ HERRAMIENTAS UTILIZADAS 🛠️ :
 
