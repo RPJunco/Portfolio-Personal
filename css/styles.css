@@ -474,4 +474,5 @@ p {
     align-items: center;
     flex-grow: 1;
     padding: 20px;
+    cursor: pointer;
 }
