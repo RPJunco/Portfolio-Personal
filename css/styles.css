@@ -215,6 +215,7 @@ p {
 
 .hero-presentacion p{
     width: 600px;
+    text-align: justify;
 }
 
 .hero-presentacion .boton-contenedor {
