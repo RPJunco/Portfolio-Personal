@@ -441,7 +441,7 @@ p {
     background-color: var(--form-input-bgcolor);
     color: var(--form-input-color);
     font-size: 25px;
-    cursor: text;
+    cursor: pointer;
 }
 
 .form-info input {
@@ -453,7 +453,7 @@ p {
     background-color: var(--form-input-bgcolor);
     color: var(--form-input-color);
     font-size: 25px;
-    cursor: text;
+    cursor: pointer;
 }
 
 .form-cuadro-texto textarea {
@@ -465,7 +465,7 @@ p {
     background-color: var(--form-input-bgcolor);
     color: var(--form-input-color);
     font-size: 25px;
-    cursor: text;
+    cursor: pointer;
 }
 
 .form-boton-envio {
