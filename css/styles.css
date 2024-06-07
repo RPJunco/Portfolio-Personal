@@ -11,7 +11,7 @@
 
 
 :root {
-    --body-bgcolor: #09121c;
+    --body-bgcolor: #011225;
 
     --h1-color: #fff;
     --h2-color: #fff;
@@ -22,13 +22,13 @@
     --boton-hover-bgcolor: #fff;
     --boton-hover-a-color: #09121c;
     
-    --header-bgcolor: #09121c;
+    --header-bgcolor: #011225;
     --header-a-color: #fff;
     --header-a-bgcolor: #09121c;
     --header-a-hover-bgcolor: #fff;
     --header-a-hover-a-color: #09121c;
 
-    --hero-contenedor-bgcolor: #09121c; 
+    --hero-contenedor-bgcolor: #011225; 
     --hero-icon-color: #42d6ff;
     --hero-icon-hover-color: #fff;
 
@@ -66,7 +66,7 @@ body {
     color: var(--boton-color);
     background-color: var(--boton-bgcolor);
     margin: 20px;
-    padding: 25px 40px;
+    padding: 25px 30px;
     border-radius: 20px;
     font-size: 24px;
     text-decoration: none;
@@ -74,16 +74,13 @@ body {
     cursor: pointer;
     font-weight: bold;
     box-shadow: 0 0 20px rgb(134, 255, 255, 0.5);
+    text-shadow: 0.2px 0.8px 3px #000000;
     transition: color 1.9s, background-color 1.9s;
 }
 
 .boton:hover {
     background-color: var(--boton-hover-bgcolor);
     color: var(--boton-hover-a-color);
-}
-
-.sombra-boton {
-    text-shadow: 0.2px 0.8px 0.2px #000000;;
 }
 
 .foto-contenedor {
@@ -93,8 +90,9 @@ body {
 }
 
 .foto-contenedor img {
-    height: 650px;
-    width: 650px;
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 0 40px rgb(134, 255, 255, 0.9);
 }
 
 img {
@@ -131,6 +129,7 @@ p {
     color: white;
     width: 300px;
     margin-top: 20px;
+    text-align: justify;
 }
 
 
@@ -185,6 +184,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px 0px 0px 0px;
 }
 
 .hero-presentacion {
@@ -211,6 +211,10 @@ p {
 .hero-presentacion {
     margin: 10px 12px;
     display: flex;  
+}
+
+.hero-presentacion p{
+    width: 600px;
 }
 
 .hero-presentacion .boton-contenedor {
@@ -253,6 +257,7 @@ p {
     color: var(--acercaDe-p-color);
     width: 450px;
     margin-top: 20px;
+    text-align: justify;
 }
 
 
@@ -296,8 +301,8 @@ p {
 
 .servicio-contenedor div {
     background-color: var(--servicio-contenedor-div-bgcolor);
-    padding: 65px;
-    margin: 35px;
+    margin: 100px;
+    padding: 50px;
     border-radius: 50px;
 }
 
